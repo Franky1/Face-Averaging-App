@@ -13,3 +13,13 @@ Face Averaging using OpenCV and Streamlit
 - added `Dockerfile`
 - added `docker-compose.yml`
 - fixed bug with text input
+
+## packages
+
+Currently these packages are in the `packages.txt` file:
+
+```txt
+cmake
+libopenblas-dev
+liblapack-dev
+```

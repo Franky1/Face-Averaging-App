@@ -91,7 +91,7 @@ def averager(names):
     rect = (0, 0, w, h)
     dt = fbc.calculateDelaunayTriangles(rect, pointsAvg)
 
-    output = np.zeros((h, w, 3), dtype=np.float)
+    output = np.zeros((h, w, 3), dtype=float)
 
     for i in range(0, numImages):
         imWarp = fbc.warpImage(imagesNorm[i], pointsNorm[i], pointsAvg.tolist(), dt)
