@@ -13,8 +13,11 @@ Face Averaging using OpenCV and Streamlit
 - added `Dockerfile`
 - added `docker-compose.yml`
 - fixed bug with text input
+- changed pip package to `dlib-bin`
 
 ## pip packages
+
+> The trick was to change `dlib` to `dlib-bin` package.
 
 Currently these packages are in the `requirements.txt` file:
 
@@ -28,10 +31,4 @@ streamlit
 
 ## apt packages
 
-Currently these packages are in the `packages.txt` file:
-
-```txt
-cmake
-libopenblas-dev
-liblapack-dev
-```
+Currently no `packages.txt` file is needed.
