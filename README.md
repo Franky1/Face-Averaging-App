@@ -14,7 +14,19 @@ Face Averaging using OpenCV and Streamlit
 - added `docker-compose.yml`
 - fixed bug with text input
 
-## packages
+## pip packages
+
+Currently these packages are in the `requirements.txt` file:
+
+```txt
+numpy
+Pillow
+opencv-python-headless
+dlib-bin
+streamlit
+```
+
+## apt packages
 
 Currently these packages are in the `packages.txt` file:
 
